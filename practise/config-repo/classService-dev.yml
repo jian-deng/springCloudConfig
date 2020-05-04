@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: class-service
+server:
+  port: 8000
+eureka:
+  instance:
+    hostname: 123.56.120.51
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:9001/eureka/
