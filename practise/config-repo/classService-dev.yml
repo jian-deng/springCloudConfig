@@ -1,8 +1,3 @@
-eureka:
-  instance:
-    hostname: 123.56.120.51
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    serviceUrl:
-      defaultZone: http://123.56.120.51:9001/eureka/
+data:
+  name: dengjian
+  age: 18
